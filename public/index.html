@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Resume of Said Smajic"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Resume - Said Smajic</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      #header, #footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      #header h1, #footer h2 {
+        margin: 0;
+        font-size: 2em;
+      }
+      .stuff {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+      .contact {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .contact ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .contact ul li {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+      }
+      .contact ul li::before {
+        content: "\2022";
+        color: #007BFF;
+        font-weight: bold;
+        display: inline-block;
+        width: 20px;
+        margin-right: 10px;
+      }
+      .head {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 30px;
+        border-bottom: 2px solid #007BFF;
+        padding-bottom: 5px;
+        color: #007BFF;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-top: 10px;
+      }
+      ul li {
+        margin: 10px 0;
+      }
+      a {
+        color: #007BFF;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Resume</h1>
+      <h2>Said Smajic</h2>
+    </div>
+    <div class="stuff">
+      <div class="contact">
+        <p><strong>Contact:</strong></p>
+        <ul>
+          <li>📍 Bosnia & Herzegovina</li>
+        </ul>
+      </div>
+
+      <p class="head">Work Experience</p>
+      <ul>
+        <li>
+          <strong>Site Reliability Engineer</strong> - Pager Health (04/2024 – Current, United States)
+          <ul>
+            <li>Improving incident management using New Relic and PagerDuty.</li>
+            <li>Participation in on-call duty (Incident Engineer).</li>
+            <li>Releasing and deploying apps using GitHub, Azure DevOps, Spinnaker, and Harness.</li>
+            <li>Implementation and maintenance of Google Cloud infrastructure (Google Kubernetes Engine, Helm charts, VM instances, Cloud Functions).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>DevSecOps/Site Reliability Engineer</strong> - Vault Health (05/2021 – Current, United States)
+          <ul>
+            <li>Proficient in using Terraform to manage infrastructure on AWS, Azure, and Cloudflare.</li>
+            <li>Implemented automated patching for servers on AWS and Azure.</li>
+            <li>Configured New Relic for monitoring and alerting policies.</li>
+            <li>Implemented Splunk for security checking and alerts integration.</li>
+            <li>Managed AWS (EC2, S3, Lambda, ECS) and Azure infrastructure.</li>
+            <li>Administered Cloudflare, overseeing changes like firewall rules and DNS records.</li>
+            <li>Utilized GitHub Actions and Harness for CI/CD pipelines.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>University Teaching Assistant</strong> - College of Computer Science eMPIRICA (07/2019 – 05/2021, Bosnia and Herzegovina)
+          <ul>
+            <li>Taught laboratory and auditory exercises on networking, cybersecurity, and C++ programming.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Lecturer</strong> - STEM Academy (09/2017 – 2023, Bosnia and Herzegovina)
+          <ul>
+            <li>Senior lecturer for STEM subjects, working with children aged 5–18.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p class="head">Education</p>
+      <ul>
+        <li><strong>Bachelor - Engineer in Computer and Informatics</strong> - College of Computing and Informatics eMPIRICOM (2020 – 2021)</li>
+        <li><strong>Bachelor of Engineering Informatics</strong> - College of Computer Science and Business Communications eMPIRICA (2017 – 2020)</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <h2>Said Smajic</h2>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
